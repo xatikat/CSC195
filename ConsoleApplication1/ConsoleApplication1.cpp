@@ -1,6 +1,3 @@
-// ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 
 int main()
@@ -9,17 +6,24 @@ int main()
     std::cout << "hamburger!\n";
     std::cout << "hamburger!\n";
 
-    int i = 0;
-    std::cin >> i;
+    //int i = 0;
+    //std::cin >> i;
+
+    std::cout << "------------------" << std::endl;
+
+    // Data Type Conversion
+    // implicit conversion
+    // target data type has the capacity (memory) to store the original value
+    short numShort = 5;
+    int numInt = numShort;
+
+    std::cout << numInt << std::endl;
+
+    // explicit conversion
+    
+    double numDbl = 150.42415;
+    int numIntDbl = (int) numDbl; // traditional c++ way
+    numIntDbl = static_cast<int>(numDbl); // modern c++ way
+
+    std::cout << numIntDbl << std::endl;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

@@ -70,6 +70,6 @@ int main()
 	cout << "ptr val: " << *ptr << endl;// output the dereference pointer
 	cout << "i1: " << i1 << endl; // output the int variable created in the REFERENCE section
 	// did the int variable's value change when using the pointer?
-	//	yes, since i was using a pointer parameter for the Double method and altering its value, it changes the value of the original object
+	// yes, since i was using a pointer parameter for the Double method and altering its value, it changes the value of the original object
 
 }

@@ -131,12 +131,14 @@
     <ClInclude Include="Database.h" />
     <ClInclude Include="Release.h" />
     <ClInclude Include="Single.h" />
+    <ClInclude Include="smart_ptr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Album.cpp" />
     <ClCompile Include="Database.cpp" />
     <ClCompile Include="Release.cpp" />
     <ClCompile Include="Single.cpp" />
+    <ClCompile Include="smart_ptr.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
